@@ -11,27 +11,12 @@ h1 {
     font-family: "Indie Flower";
 }
 
-table {
-    width: 600px;
+label {
+    display: block;
+    margin-top: 20px;
 }
 
-table thead {
-    background-color: #CCC;
-}
-
-th {
-    font-weight: normal;
-}
-
-th, td {
+input [type=text]{
     padding: 10px;
-    text-align: left;
-}
-
-tbody tr:hover {
-    background-color: #EEE;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #EEE;
+    width: 500px;
 }
